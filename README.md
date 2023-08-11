@@ -4,6 +4,7 @@
 
 * Speaker (x2)
 * RC Reciever
+* Web Interface
 * Body
   * Drive
     * Left Leg
