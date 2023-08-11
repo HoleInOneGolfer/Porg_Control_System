@@ -1,15 +1,6 @@
 {
     "folders": [
         {
-            "path": "Body"
-        },
-        {
-            "path": "Dome"
-        },
-        {
-            "path": "Web"
-        },
-        {
             "path": "."
         },
         {
@@ -22,10 +13,7 @@
     "settings": {
         "files.exclude": {
             ".github": true,
-            "docs": true,
-            "Body": true,
-            "Dome": true,
-            "Web": true
+            "docs": true
         }
     },
     "tasks": {
