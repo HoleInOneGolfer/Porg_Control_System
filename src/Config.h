@@ -30,4 +30,9 @@
 #define FLD_PIN 0  // Front Logic Display
 #define RLD_PIN 0  // Rear Logic Display
 
+#define CAM_TX_PIN 0 // Camera TX
+#define CAM_RX_PIN 0 // Camera RX
+
+// ===== BODY =====
+
 #endif
