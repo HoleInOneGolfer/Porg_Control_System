@@ -17,7 +17,8 @@
         },
         "files.associations": {
             "*.ejs": "html",
-            "cstddef": "cpp"
+            "cstddef": "cpp",
+            "*.tcc": "cpp"
         }
     },
     "tasks": {

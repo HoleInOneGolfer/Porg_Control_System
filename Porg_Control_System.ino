@@ -6,8 +6,10 @@
 
 void setup()
 {
+    dome::setup();
 }
 
 void loop()
 {
+    dome::loop();
 }
