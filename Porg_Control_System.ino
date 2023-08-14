@@ -6,7 +6,6 @@
 
 void setup()
 {
-    initDome();
 }
 
 void loop()
