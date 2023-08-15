@@ -41,7 +41,7 @@ namespace config
         const byte HL3_CNT = 7;
         const byte RPSI_CNT = 21;
         const byte FPSI_CNT = 21;
-        const byte FLD_CNT = 26 * 4;
+        const byte FLD_CNT = 27 * 4;
         const byte RLD_CNT = 2 * (5 * 9);
 
         // Camera

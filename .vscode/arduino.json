@@ -4,6 +4,6 @@
     "sketch": "Porg_Control_System.ino",
     "output": "build",
     "programmer": "avrisp",
-    "port": "COM5",
+    "port": "COM11",
     "buildPreferences": []
 }

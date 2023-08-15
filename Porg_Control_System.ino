@@ -2,20 +2,17 @@
 
 #include <Arduino.h>
 
-#include "src/Dome.h"
+#include "src/Config.h"
+#include "src/Tests/NeoTest.h"
+
+NeoTest FLD = NeoTest(51, config::dome::RLD_CNT);
 
 void setup()
 {
-    Serial.begin(115200);
-
-    dome::setup();
+    FLD.setup();
 }
 
 void loop()
 {
-    if (Serial.available())
-    {
-        String command = Serial.readStringUntil('\n');
-        Serial.println(command);
-    }
+    FLD.loop();
 }
