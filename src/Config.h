@@ -2,49 +2,54 @@
 #pragma once
 
 #include <Arduino.h>
+
 namespace config
 {
     namespace dome
     {
-        const byte HV1_PIN = 0;   // Pin for the Holoprojector Vertical 1
-        const byte HH1_PIN = 0;   // Pin for the Holoprojector Horizontal 1
-        const byte HV2_PIN = 0;   // Pin for the Holoprojector Vertical 2
-        const byte HH2_PIN = 0;   // Pin for the Holoprojector Horizontal 2
-        const byte HV3_PIN = 0;   // Pin for the Holoprojector Vertical 3
-        const byte HH3_PIN = 0;   // Pin for the Holoprojector Horizontal 3
-        const byte SIDE1_PIN = 0; // Pin for the Side Panel 1
-        const byte SIDE2_PIN = 0; // Pin for the Side Panel 2
-        const byte SIDE3_PIN = 0; // Pin for the Side Panel 3
-        const byte SIDE4_PIN = 0; // Pin for the Side Panel 4
-        const byte SIDE5_PIN = 0; // Pin for the Side Panel 5
-        const byte SIDE6_PIN = 0; // Pin for the Side Panel 6
-        const byte PIE1_PIN = 0;  // Pin for the Pie Panel 1
-        const byte PIE2_PIN = 0;  // Pin for the Pie Panel 2
-        const byte PIE3_PIN = 0;  // Pin for the Pie Panel 3
-        const byte PIE4_PIN = 0;  // Pin for the Pie Panel 4
-        const byte PIE5_PIN = 0;  // Pin for the Pie Panel 5
+        // Servos
+        const byte HH1_PIN = 0; // Holoprojector Horizontal servo 1
+        const byte HV1_PIN = 0; // Holoprojector Vertical servo 1
+        const byte HH2_PIN = 0; // Holoprojector Horizontal servo 2
+        const byte HV2_PIN = 0; // Holoprojector Vertical servo 2
+        const byte HH3_PIN = 0; // Holoprojector Horizontal servo 3
+        const byte HV3_PIN = 0; // Holoprojector Vertical servo 3
+        const byte PP1_PIN = 0; // Pie Panel servo 1
+        const byte PP2_PIN = 0; // Pie Panel servo 2
+        const byte PP3_PIN = 0; // Pie Panel servo 3
+        const byte PP4_PIN = 0; // Pie Panel servo 4
+        const byte PP5_PIN = 0; // Pie Panel servo 5
+        const byte SP1_PIN = 0; // Side Panel servo 1
+        const byte SP2_PIN = 0; // Side Panel servo 2
+        const byte SP3_PIN = 0; // Side Panel servo 3
+        const byte SP4_PIN = 0; // Side Panel servo 4
+        const byte SP5_PIN = 0; // Side Panel servo 5
+        const byte SP6_PIN = 0; // Side Panel servo 6
 
-        const byte HL1_PIN = 0;  // Pin for the Holoprojector Light 1
-        const byte HL2_PIN = 0;  // Pin for the Holoprojector Light 2
-        const byte HL3_PIN = 0;  // Pin for the Holoprojector Light 3
-        const byte RPSI_PIN = 0; // Pin for the Rear PSI
-        const byte FPSI_PIN = 0; // Pin for the Front PSI
-        const byte FLD_PIN = 0;  // Pin for the Front Logic Display
-        const byte RLD_PIN = 0;  // Pin for the Rear Logic Display
+        // Lights
+        const byte HL1_PIN = 0;  // Holoprojector LED 1
+        const byte HL2_PIN = 0;  // Holoprojector LED 2
+        const byte HL3_PIN = 0;  // Holoprojector LED 3
+        const byte RPSI_PIN = 0; // Rear PSI LED
+        const byte FPSI_PIN = 0; // Front PSI LED
+        const byte RLD_PIN = 0;  // Rear Logic Display LED
+        const byte FLD_PIN = 0;  // Front Logic Display LED
 
-        const byte DOME_EYE_CAM_TX_PIN = 0; // Pin for the Dome Camera TX
-        const byte DOME_EYE_CAM_RX_PIN = 0; // Pin for the Dome Camera RX
+        // Camera
+        const byte EYE_CAM_RX_PIN = 0;         // Eye Camera RX
+        const byte EYE_CAM_TX_PIN = 0;         // Eye Camera TX
+        const byte EYE_CAM_BAUD_RATE = 115200; // Eye Camera Baud Rate
 
-        const byte TX_PIN = 0; // Pin for the TX
-        const byte RX_PIN = 0; // Pin for the RX
+        // Body RX-TX
+        const byte BODY_RX_PIN = 0;         // Body RX
+        const byte BODY_TX_PIN = 0;         // Body TX
+        const byte BODY_BAUD_RATE = 115200; // Body Baud Rate
+    }
 
-        const byte HL1_CNT = 7;   // Number of LEDS on the Holoprojector 1 Light
-        const byte HL2_CNT = 7;   // Number of LEDS on the Holoprojector 2 Light
-        const byte HL3_CNT = 7;   // Number of LEDS on the Holoprojector 3 Light
-        const byte RPSI_CNT = 21; // Number of LEDS on the Rear PSI Light
-        const byte FPSI_CNT = 21; // Number of LEDS on the Front PSI Light
-        const byte FLD_CNT = 104; // Number of LEDS on the Front Logic Display Light
-        const byte RLD_CNT = 90;  // Number of LEDS on the Rear Logic Display Light
+    namespace body
+    {
+
     }
 }
+
 #endif
