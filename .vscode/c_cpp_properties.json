@@ -7,7 +7,7 @@
                 "C:/Program Files (x86)/Arduino/**",
                 "C:/Users/benja/OneDrive/Documents/Arduino/libraries/**",
                 "D:/ArduinoSketchbook/libraries/**",
-                "D:/Program Files/Arduino/**"
+                "D:/Program Files/Arduino/**",
             ],
             "cStandard": "c17",
             "cppStandard": "c++17",

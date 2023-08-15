@@ -35,6 +35,15 @@ namespace config
         const byte RLD_PIN = 0;  // Rear Logic Display LED
         const byte FLD_PIN = 0;  // Front Logic Display LED
 
+        // Counts
+        const byte HL1_CNT = 7;
+        const byte HL2_CNT = 7;
+        const byte HL3_CNT = 7;
+        const byte RPSI_CNT = 21;
+        const byte FPSI_CNT = 21;
+        const byte FLD_CNT = 26 * 4;
+        const byte RLD_CNT = 2 * (5 * 9);
+
         // Camera
         const byte EYE_CAM_RX_PIN = 0;         // Eye Camera RX
         const byte EYE_CAM_TX_PIN = 0;         // Eye Camera TX
