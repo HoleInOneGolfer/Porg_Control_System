@@ -47,3 +47,10 @@
 * 2x Mega2560Pro
 * Syren 10
 * Sabertooth
+
+## Libraries
+
+* Arduino
+* Adafruit_NeoPixel
+* Servo
+* SoftwareSerial
