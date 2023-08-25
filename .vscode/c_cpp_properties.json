@@ -3,12 +3,13 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "D:/ArduinoDocs/libraries/**",
+                "D:/Program Files/Arduino/**"
             ],
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64",
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+            "intelliSenseMode": "windows-msvc-x64"
         }
     ],
     "version": 4
