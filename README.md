@@ -43,8 +43,8 @@
 * 28x Servo
 * DF_Player
 * X8R
-* ESP32 Chip or Board
-* 2x Mega2560Pro
+* ESP32 Board
+* Mega2560Pro
 * Syren 10
 * Sabertooth
 
