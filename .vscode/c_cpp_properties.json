@@ -4,12 +4,11 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:/ArduinoDocs/libraries/**",
-                "D:/Program Files/Arduino/**"
+                "D:/Program Files/Arduino/**",
+                "D:/ArduinoSketchbook/libraries/**"
             ],
             "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
