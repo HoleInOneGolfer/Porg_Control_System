@@ -3,7 +3,7 @@
     "board": "esp32:esp32:esp32s3",
     "sketch": "Porg_Control_System.ino",
     "output": "build",
-    "programmer": "avrisp",
+    "programmer": "esptool",
     "port": "COM2",
     "buildPreferences": []
 }
