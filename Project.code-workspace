@@ -2,19 +2,10 @@
     "folders": [
         {
             "path": "."
-        },
-        {
-            "path": "docs"
-        },
-        {
-            "path": ".github"
         }
     ],
     "settings": {
-        "files.exclude": {
-            ".github": true,
-            "docs": true
-        },
+        "files.exclude": {},
         "files.associations": {}
     },
     "tasks": {
