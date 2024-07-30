@@ -1,9 +1,7 @@
 {
-    "configuration": "cpu=atmega2560",
-    "board": "arduino:avr:mega",
     "sketch": "Porg_Control_System.ino",
-    "output": "build",
-    "programmer": "avrisp",
-    "port": "COM11",
-    "buildPreferences": []
+    "configuration": "JTAGAdapter=default,CDCOnBoot=default,PartitionScheme=default,CPUFreq=160,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:esp32c3",
+    "output": "./build",
+    "programmer": "esptool"
 }

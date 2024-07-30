@@ -8,6 +8,7 @@ class ServoTest
 {
 public:
     int PIN;
+    int ROTATION = 0;
     int DELAY = 100;
     Servo SERVO;
     ServoTest(int pin)
@@ -17,8 +18,9 @@ public:
     }
     void loop()
     {
-        SERVO.write(0);
+        SERVO.write(ROTATION);
         delay(DELAY);
+        ROTATION = (ROTATION + 1) % 180;
     }
 };
 
